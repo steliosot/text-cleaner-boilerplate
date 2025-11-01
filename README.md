@@ -1,4 +1,4 @@
-# 🧹 Text Cleaner (Simple + Virtual Environment)
+# Text Cleaner (Simple + Virtual Environment)
 
 A super simple Python project for beginners to practice cleaning text files **and using virtual environments (venv)**.
 
@@ -6,7 +6,7 @@ It reads text from `data/raw/input.txt`, applies basic cleaning rules from `clea
 
 ---
 
-## 📦 Project Structure
+## Project Structure
 ```
 text-cleaner-simple-venv/
 ├─ cleaner/
@@ -24,7 +24,7 @@ text-cleaner-simple-venv/
 
 ---
 
-## 🧰 Setup Virtual Environment
+## Setup Virtual Environment
 
 Before running the project, create and activate a **virtual environment** to keep your workspace clean.
 
@@ -51,7 +51,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Cleaner
+## Run the Cleaner
 After activating your venv, run:
 ```bash
 python3 cleaner/clean.py
@@ -64,7 +64,7 @@ data/clean/output.txt
 
 ---
 
-## 🧠 What It Does
+## What It Does
 - Removes extra spaces from each line  
 - Converts text to lowercase  
 - Skips empty lines  
@@ -78,7 +78,7 @@ remove_empty: true
 
 ---
 
-## 🧪 Optional Test
+## Optional Test
 If you want to check that everything works:
 ```bash
 python3 -m pytest -q
@@ -86,7 +86,7 @@ python3 -m pytest -q
 
 ---
 
-## ✨ Example
+## Example
 **Input (`data/raw/input.txt`):**
 ```
   Hello WORLD  
@@ -102,4 +102,4 @@ this   is   a simple example
 
 ---
 
-Enjoy learning Python and virtual environments! 🎓
+Enjoy learning Python and virtual environments!
