@@ -4,9 +4,7 @@ These rules ensure clean, safe, beginner-friendly data cleaning code.
 
 If you're opening a pull request or writing new logic, follow the checklist below to meet quality and consistency standards.
 
-## Auto-Checkable Data Cleaning Rules
-
-These checks are ideal for automation (e.g., with Watchflow.dev) or as a human code review guide.
+## Data Cleaning Rules
 
 1. Encoding Check
 
